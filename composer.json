@@ -1,0 +1,17 @@
+{
+    "name": "tdd/php",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Tdd\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Emanuel Almeida"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
